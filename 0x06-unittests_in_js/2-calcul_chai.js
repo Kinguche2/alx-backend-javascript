@@ -13,3 +13,5 @@ const calculateNumber = (type, a, b) => {
       throw new TypeError;
   }
 };
+
+module.exports = calculateNumber;
